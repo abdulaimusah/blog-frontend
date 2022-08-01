@@ -1,9 +1,9 @@
 //import Head from 'next/head';
-import Layout from './components/layout';
-import PostList from './components/postlist';
+import Layout from '../components/layout';
+import PostList from '../components/postlist';
 
  // this is the home page of the blog
-// it displays links of posts.
+// it displays links/list of posts.
 export default function App ({props}) {
 
   //console.log(props);

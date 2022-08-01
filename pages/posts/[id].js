@@ -1,6 +1,6 @@
 
-import Layout from "../components/layout";
-import Post from "../components/post";
+import Layout from "../../components/layout";
+import Post from "../../components/post";
 
 // this is a dynamic page that renders
 // any clicked post on the index page.

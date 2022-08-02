@@ -24,7 +24,7 @@ const PostList = ({posts}) => {
                     to-violet-500">
                        Popular Posts
                     </span>
-                </div>
+                </div>tt
                 <div className="flex flex-col">
                 {posts.length && posts.map(post => (
                     

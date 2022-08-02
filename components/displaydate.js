@@ -36,6 +36,9 @@ const DisplayDate = ({theDate}) => {
         else if (elapsed < 172800000) {
             return "1 day";
         }
+        else if(elapsed > (86400000 * 365.25) ) {
+            return `${Math.floor(elapsed/(86400000 * 365.25))} years`
+        }
         else {
             return `${Math.floor(elapsed/(86400000))} days`;
         }

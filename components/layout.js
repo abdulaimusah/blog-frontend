@@ -25,7 +25,7 @@ const Layout = ({children}) => {
             </Head>
             <Header></Header>
             <main className="p-2 md:px-8 md:py-4
-             flex-grow" >
+             flex-grow " >
                 
 
                {children}

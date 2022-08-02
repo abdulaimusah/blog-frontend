@@ -5,10 +5,10 @@
 const Footer = () => {
 
     return(
-        <footer className="flex-shrink-0 h-24 
+        <footer className="flex-shrink-0 h-32 
         bg-slate-700 text-white font-medium
         flex items-center justify-between text-base " >
-            <div class="text-3xl font-bold p-4">
+            <div class="text-2xl font-semibold p-4">
                     <span class="bg-clip-text text-transparent
                     bg-gradient-to-r from-rose-500
                     via-purple-400
